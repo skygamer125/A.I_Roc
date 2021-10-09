@@ -1,0 +1,19 @@
+{
+  "name": "ai_roc",
+  "version": "1.0.0",
+  "description": "learning bot!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skygamer",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.1.0",
+    "furaffinity-api": "^4.0.1",
+    "google-search-results-nodejs": "^2.0.1"
+  }
+}

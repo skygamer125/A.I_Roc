@@ -1,0 +1,4 @@
+# ignore all files in any directory named node_modules
+node_modules/
+#ignore config.json file
+config.json
