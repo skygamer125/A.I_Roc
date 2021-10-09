@@ -1,6 +1,9 @@
 {
   "name": "ai_roc",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "description": "learning bot!",
   "main": "main.js",
   "scripts": {
