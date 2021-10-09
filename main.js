@@ -1,6 +1,7 @@
 console.log("Node.js version: " + process.version);
 
 // Require the necessary discord.js classes
+require('dotenv').config();
 const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
 
