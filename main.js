@@ -7,7 +7,6 @@ const { Client, Collection, Intents } = require('discord.js');
 
 //retrieve token from enviroment variables
 const token = process.env.TOKEN;
-console.log("TOKEN: " + token);
 
 // Create a new client instance
 const client = new Client({
