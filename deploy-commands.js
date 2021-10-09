@@ -4,9 +4,9 @@
 const fs = require('fs');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-token = process.env.token;
-guildId = process.env.guildId;
-clientId = process.env.clientId;
+token = process.env.TOKEN;
+guildId = process.env.GUILD_ID;
+clientId = process.env.CLIENT_ID;
 
 //reading command files
 const commands = []
