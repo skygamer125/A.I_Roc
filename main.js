@@ -55,6 +55,6 @@ for(const file of commandFiles){
 }
 
 // Login to Discord with your client's token
-client.login(token ||"ODg5MjE4ODU5NDMxNzc2Mjg3.YUeDmA.sbEV8bFGzK2p3V5oZGEhot21304");
+client.login(token);
 
 module.exports = client
