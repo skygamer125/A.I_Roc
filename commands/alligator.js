@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const { CommandInteractionOptionResolver, MessageEmbed } = require('discord.js');
+const { MessageEmbed } = require('discord.js');
 const SerpApi = require('google-search-results-nodejs');
 const search = new SerpApi.GoogleSearch("9059cfca8ddb5f034f062ea3cade4ebc4ee57a548a0536b8d9e080e3fb1cce33");
 

@@ -3,7 +3,7 @@ console.log("Node.js version: " + process.version);
 // Require the necessary discord.js classes
 require('dotenv').config();
 const fs = require('fs');
-const { Client, Collection, Intents } = require('discord.js');
+const { Client, Collection} = require('discord.js');
 
 //retrieve token from enviroment variables
 const token = process.env.TOKEN;
@@ -55,4 +55,6 @@ for(const file of commandFiles){
 }
 
 // Login to Discord with your client's token
-client.login(token);
+client.login(token ||"ODg5MjE4ODU5NDMxNzc2Mjg3.YUeDmA.sbEV8bFGzK2p3V5oZGEhot21304");
+
+module.exports = client
