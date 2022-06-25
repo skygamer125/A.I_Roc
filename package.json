@@ -12,7 +12,7 @@
   "author": "Skygamer",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/builders": "^0.12.0",
+    "@discordjs/builders": "^0.14.0",
     "@discordjs/rest": "^0.4.1",
     "discord-api-types": "^0.27.2",
     "discord.js": "^13.6.0",
