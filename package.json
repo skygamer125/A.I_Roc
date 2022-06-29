@@ -13,9 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "@discordjs/builders": "^0.12.0",
-    "@discordjs/rest": "^0.3.0",
-    "discord-api-types": "^0.27.3",
-    "discord.js": "^13.6.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.27.2",
+    "discord.js": "^13.7.0",
     "dotenv": "^10.0.0",
     "furaffinity-api": "^3.5.1",
     "google-search-results-nodejs": "^2.1.0"
